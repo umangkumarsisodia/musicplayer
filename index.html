@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <navbar class="navbar">
+        <img src="./img/spotify.png" alt="Spotify Image" id="spotify-image">
+        <ul>
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">About</a>
+            </li>
+        </ul>
+    </navbar>
+    <div class="container">
+        <div class="left">
+            <div class="song-list">
+                <h1 id="greet"></h1>
+                <div class="song-container">
+                    <div class="song">
+                        <span class="song-name"></span><span class="timeDuration"></span><span><i class="far fa-play-circle song-play" id="0"></i></span>
+                    </div>
+                </div>
+                <div class="song-container">
+                    <div class="song">
+                        <span class="song-name"></span><span class="timeDuration"></span><span><i class="far fa-play-circle song-play" id="1"></i></span>
+                    </div>
+                </div>
+                <div class="song-container">
+                    <div class="song">
+                        <span class="song-name"></span><span class="timeDuration"></span><span><i class="far fa-play-circle song-play" id="2"></i></span>
+                    </div>
+                </div>
+                <div class="song-container">
+                    <div class="song">
+                        <span class="song-name"></span><span class="timeDuration"></span><span><i class="far fa-play-circle song-play" id="3"></i></span>
+                    </div>
+                </div>
+                <div class="song-container">
+                    <div class="song">
+                        <span class="song-name"></span><span class="timeDuration"></span><span><i class="far fa-play-circle song-play" id="4"></i></span>
+                    </div>
+                </div>
+                <div class="song-container">
+                    <div class="song">
+                        <span class="song-name"></span><span class="timeDuration"></span><span><i class="far fa-play-circle song-play" id="5"></i></span>
+                    </div>
+                </div>
+                <div class="song-container">
+                    <div class="song">
+                        <span class="song-name"></span><span class="timeDuration"></span><span><i class="far fa-play-circle song-play" id="6"></i></span>
+                    </div>
+                </div>
+                <div class="song-container">
+                    <div class="song">
+                        <span class="song-name"></span><span class="timeDuration"></span><span><i class="far fa-play-circle song-play" id="7"></i></span>
+                    </div>
+                </div>
+                <div class="song-container">
+                    <div class="song">
+                        <span class="song-name"></span><span class="timeDuration"></span><span><i class="far fa-play-circle song-play" id="8"></i></span>
+                    </div>
+                </div>
+                <div class="song-container">
+                    <div class="song">
+                        <span class="song-name"></span><span class="timeDuration"></span><span><i class="far fa-play-circle song-play" id="9"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="sData">
+                <img src="./img/play2.jpg" id="gif">
+                <div class="song-detail">
+                    <h3 id="ct"></h3>
+                    <h2 id="songName"></h2>
+                    <h3 id="dt"></h3>
+                </div>
+                <div class="awesomeBtn">
+                        <input type="range" name="range" min="0" max="100" value="0" id="playbackSpeed">
+                        <div id="btn">
+                        <i class="fas fa-2x fa-step-backward" id="backwardMusic"></i>
+                        <i class="far fa-2x fa-play-circle" id="playMusic"></i>
+                        <i class="fas fa-2x fa-step-forward" id="forwardMusic"></i>
+                    </div>
+                    </div>
+                </div>
+        </div>
+    </div> 
+    <script src="./JS/app.js"></script>
+    <script src="https://kit.fontawesome.com/84059f4353.js" crossorigin="anonymous"></script>
+</body>
+</html>
