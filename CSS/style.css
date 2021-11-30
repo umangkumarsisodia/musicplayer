@@ -130,6 +130,10 @@ i{
         align-items: center;
     }
 
+    .song-container {
+        width: 65vw;
+    }
+    
     #gif {
         display: none;
     }
@@ -150,9 +154,11 @@ i{
     #greet {
         font-size: 1rem;
     }
+
     .song-container {
         font-size: 0.5rem;
     }
+
 }
 
 @media screen and (max-width:545px) {
@@ -162,6 +168,10 @@ i{
 
     .song-container {
         font-size: 0.4rem;
+    }
+
+    .song-detail{
+        font-size: 0.5rem;
     }
 }
 
@@ -173,6 +183,10 @@ i{
     .song-container {
         font-size: 0.3rem;
     }
+
+    /* .song-detail{
+        font-size: 0.5rem;
+    } */
 }
 
 @media screen and (max-width:326px) {
