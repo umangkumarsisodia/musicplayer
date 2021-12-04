@@ -223,4 +223,29 @@ function updateTrackTime(){
     dt.innerHTML = dmin + ":" + dsec ;
 }
 
+let up = document.getElementById('up');
+up.addEventListener('click', ()=>{
+    let hide = document.getElementById('hide');
+    let trans = document.getElementById('trans');
+    let right = document.getElementById('right');
+    if(hide.style.display!='none') {
+        hide.style.display = 'none';
+        up.classList.remove('fa-chevron-up');
+        up.classList.add('fa-chevron-down');
+        trans.style.display = 'flex';
+        trans.style.justifyContent = 'center';
+        trans.style.alignItems = 'center';
+        trans.style.transform = "translateY(0vh)";
+        right.style.position = 'absolute';
+        right.style.bottom = '0px';
+    }
+
+    else{
+        trans.style.display = 'none';
+        hide.style.display = 'block';
+        right.style.position = 'relative';
+        up.classList.remove('fa-chevron-down');
+        up.classList.add('fa-chevron-up');
+    }
+})
 greeting();

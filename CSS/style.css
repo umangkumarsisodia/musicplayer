@@ -123,11 +123,35 @@ i{
     cursor: pointer;
 }
 
+@media screen and (min-width:992px) {
+    .container {
+        justify-content: space-between;
+        /* align-items: center; */
+    }
+}
 @media screen and (max-width:991px) {
     .container {
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
+    }
+
+    #trans {
+        display: none;
+        background-color: black;
+        color: white;
+        transition: 1.5s ease;
+        width: 100%;
+        text-align: center;
+    }
+
+    #trans img {
+        width: 100%;
+    }
+
+    #up {
+        position: absolute;
+        right: 20px;
     }
 
     .song-container {

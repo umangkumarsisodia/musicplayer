@@ -20,6 +20,7 @@
         </ul>
     </navbar>
     <div class="container">
+        <div id="hide">
         <div class="left">
             <div class="song-list">
                 <h1 id="greet"></h1>
@@ -75,7 +76,11 @@
                 </div>
             </div>
         </div>
-        <div class="right">
+        </div>
+        <div id="trans">
+            <img src="./img/play.gif" alt="">
+        </div>
+        <div class="right" id="right">
             <div class="sData">
                 <img src="./img/play2.jpg" id="gif">
                 <div class="song-detail">
@@ -86,10 +91,11 @@
                 <div class="awesomeBtn">
                         <input type="range" name="range" min="0" max="100" value="0" id="playbackSpeed">
                         <div id="btn">
-                        <i class="fas fa-2x fa-step-backward" id="backwardMusic"></i>
-                        <i class="far fa-2x fa-play-circle" id="playMusic"></i>
-                        <i class="fas fa-2x fa-step-forward" id="forwardMusic"></i>
-                    </div>
+                            <i class="fas fa-2x fa-step-backward" id="backwardMusic"></i>
+                            <i class="far fa-2x fa-play-circle" id="playMusic"></i>
+                            <i class="fas fa-2x fa-step-forward" id="forwardMusic"></i>
+                            <i class="fas fa-chevron-up" id="up"></i>
+                        </div>
                     </div>
                 </div>
         </div>
