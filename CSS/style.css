@@ -19,7 +19,7 @@ body{
 }
 
 #spotify-image{
-    width:10vw;
+    width:4vw;
     margin: 0 0 0 10px;
 }
 
@@ -128,7 +128,16 @@ i{
         justify-content: space-between;
         /* align-items: center; */
     }
+
+    #trans {
+        display: none;
+    }
+
+    #up {
+        display: none;
+    }
 }
+
 @media screen and (max-width:991px) {
     .container {
         flex-direction: column;
